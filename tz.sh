@@ -25,8 +25,8 @@ docker run --name docker-nginx -d -p 80:80 test-docker-nginx
 
 curl docker-tom && ${ECHO}  "docker-tom OK" || ${ECHO} "docker-tom Err"
 ${ECHO} ""
-curl docker-alice && ${ECHO} "docker-tom OK" || ${ECHO} "docker-tom Err"
+curl docker-alice && ${ECHO} "docker-alice OK" || ${ECHO} "docker-alice Err"
 ${ECHO} ""
-curl docker-bob && ${ECHO} "docker-tom OK" || ${ECHO} "docker-tom Err"
+curl docker-bob && ${ECHO} "docker-bob OK" || ${ECHO} "docker-bob Err"
 
 #EOF
